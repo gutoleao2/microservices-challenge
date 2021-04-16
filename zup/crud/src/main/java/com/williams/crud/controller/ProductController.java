@@ -22,7 +22,6 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @RestController
 @RequestMapping(path = "/product")
-//@Api(value = "/product", produces = "REST API for ATUALIZAR CONTAS RECEITA")
 public class ProductController implements ProductControllerAPI {
 
     private final ProductService productService;
